@@ -1,6 +1,6 @@
 
 import { question } from "readline-sync";
-import { inputAdd,inputSubtraction,inputDivision,inputMultiplicatio,inputHolding, } from "./client.js";
+import { inputAdd,inputSubtraction,inputDivision,inputMultiplicatio,inputHolding,inputRoot } from "./client.js";
 const menu = question(`Enter the desired account action: 
 To connect, press 1: 
 To subtract, press 2: 
@@ -18,11 +18,11 @@ if (menu === "2"){
     inputSubtraction()
 }
 
-if (menu === "4"){
+if (menu === "3"){
     inputDivision()
 }
 
-if (menu === "3"){
+if (menu === "4"){
     inputMultiplicatio()
 }
 if (menu === "5"){

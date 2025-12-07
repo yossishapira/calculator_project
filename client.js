@@ -39,7 +39,7 @@ export function inputHolding() {
 }
 
 export function inputRoot() {
-    const number1 = question("Press number")
+    const number1 = question("Press number ")
     const rootNumbers = root(number1)
     console.log("root", number1, "=", rootNumbers)
 }
